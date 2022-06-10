@@ -1,0 +1,72 @@
+body {
+    font-family: 'Courier Prime', monospace;
+    background-image: url(assets/hatterkep.jpg);
+    margin: 0;
+    padding: 0
+}
+
+main {
+    padding: 0 10%;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #333333;
+    height: 50px;
+}
+
+a {
+    color: #ff0099;
+}
+
+section h4 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+section p {
+    margin: 10px 0 20px 0;
+}
+
+#myName {
+    font-family: 'Joan', serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 75px;
+}
+
+#myPosition {
+    font-family: 'Joan', serif;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#separator {
+    margin: 50px;
+}
+
+.navbar {
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navLinks li {
+    margin-left: 35px;
+}
+
+.toMiddle {
+    text-align: center;
+}
+
+.toMiddle h3 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
